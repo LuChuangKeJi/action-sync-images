@@ -29,4 +29,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/homebrew/jamesdbloom/mockserver:latest docker://registry.cn-shanghai.aliyuncs.com/zdf321/jamesdbloom-mockserver:latest
+        skopeo copy docker://docker.io/jamesdbloom/mockserver:latest docker://registry.cn-shanghai.aliyuncs.com/zdf321/jamesdbloom-mockserver:latest
